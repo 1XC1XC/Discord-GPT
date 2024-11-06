@@ -1,0 +1,25 @@
+2024-10-29 19:53:21,263 - whisper_api - INFO - Starting Whisper API server...
+2024-10-29 19:53:53,933 - whisper_api - INFO - Request 20241029_195353_933335 started: POST http://localhost:8000/transcribe?user_id=927225091991957574
+2024-10-29 19:53:53,933 - whisper_api - DEBUG - Request details: {
+  "timestamp": "2024-10-29T19:53:53.933612",
+  "method": "POST",
+  "url": "http://localhost:8000/transcribe?user_id=927225091991957574",
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-encoding": "gzip, compress, deflate, br",
+    "content-type": "application/json",
+    "user-agent": "axios/1.7.7",
+    "connection": "keep-alive",
+    "host": "localhost:8000",
+    "content-length": "199"
+  },
+  "query_params": {
+    "user_id": "927225091991957574"
+  },
+  "body": "{\"url\":\"https://cdn.discordapp.com/attachments/1300011657531228261/1300985992278446080/voice-message.ogg?ex=6722d51f&is=6721839f&hm=a48de03c2cbc024b67fc5ed08c5d54379fcaa118ff02ca76099e80d8018bca8d&\"}"
+}
+2024-10-29 19:53:53,933 - whisper_api - DEBUG - Request 20241029_195353_933335 details logged
+2024-10-29 19:53:53,934 - whisper_api - INFO - Transcription request received - User ID: 927225091991957574
+2024-10-29 19:53:53,934 - whisper_api - DEBUG - Request body: b'{"url":"https://cdn.discordapp.com/attachments/1300011657531228261/1300985992278446080/voice-message.ogg?ex=6722d51f&is=6721839f&hm=a48de03c2cbc024b67fc5ed08c5d54379fcaa118ff02ca76099e80d8018bca8d&"}'
+2024-10-29 19:53:53,934 - whisper_api - ERROR - Either request body with URL or file upload must be provided
+2024-10-29 19:53:53,935 - whisper_api - INFO - Request 20241029_195353_933335 completed with status 400
