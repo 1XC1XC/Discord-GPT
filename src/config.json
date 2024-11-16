@@ -1,0 +1,15 @@
+{
+    "discord": {
+        "token": "your-discord-bot-token-here",
+        "prefix": "!"
+    },
+    "llm": {
+        "port": 11434,
+        "model": "llama3.2"
+    },
+    "whisper": {
+        "port": 8000,
+        "model_size": "medium",
+        "cuda": true
+    }
+}
